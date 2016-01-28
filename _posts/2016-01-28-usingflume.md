@@ -3,8 +3,8 @@ layout: post
 title: "Using Flume 读书笔记"
 tagline: "Supporting tagline"
 description: ""
-category: java
-tags: [big data, stream handler]
+category: big-data
+tags: [ stream handler]
 ---
 {% include JB/setup %}
 
