@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jump Start BootStrap 读书笔记"
+tagline: "Supporting tagline"
 description: ""
 category: css
 tags: [web-ui]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Apache Zookeeper Essentials 读书笔记"
+tagline: "Supporting tagline"
 description: ""
 category: java
 tags: [big data, distribute coordinate]

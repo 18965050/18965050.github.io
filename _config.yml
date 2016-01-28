@@ -8,7 +8,7 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Lvcg的技术博客1
+title : Lvcg的技术博客
 tagline: Site Tagline
 author :
   name : 吕承纲
