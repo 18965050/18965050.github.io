@@ -22,7 +22,11 @@ description: ""
 	
 - 创建环境变量$RUBY_HOME,并将$RUBY_HOME/bin添加到$PATH环境变量中
 
-- (<font color="orange">可选</font>)安装DevKit, DevKit可在windows环境中运行Unix命令,类似minggw.( [DevKit下载地址](https://github.com/oneclick/rubyinstaller/downloads/  "DevKit下载地址") ). 下载解压并进入解压目录, 运行
+- (<font color="orange">可选</font>)安装DevKit, DevKit可在windows环境中运行Unix命令,类似minggw.( [DevKit下载地址](https://github.com/oneclick/rubyinstaller/downloads/  "DevKit下载地址") ). 下载解压并进入解压目录, 修改config.yml, 配置ruby安装路径: <br />
+
+	\- E [ruby安装路径]    #比如: - E:/installed/Ruby22-x64
+
+,然后运行: <br />
 
 	ruby dk.rb init
 
