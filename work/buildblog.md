@@ -22,13 +22,15 @@ description: ""
 	
 - 创建环境变量$RUBY_HOME,并将$RUBY_HOME/bin添加到$PATH环境变量中
 
-- (<font color="orange">可选</font>)安装DevKit, DevKit可在windows环境中运行Unix命令,类似minggw.( [DevKit下载地址](https://github.com/oneclick/rubyinstaller/downloads/  "DevKit下载地址") ). 下载解压并进入解压目录, 修改config.yml, 配置ruby安装路径: <br />
+- (<font color="orange">可选</font>)安装DevKit, DevKit可在windows环境中运行Unix命令及C,C++编译器,类似minggw,有些ruby gem源码编译是需要用到. 注意不同的ruby版本选用不同的DevKit.( [64位 DevKit下载地址](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe  "DevKit下载地址") ). 下载解压并进入解压目录, 修改config.yml, 配置ruby安装路径: <br />
 
 	\- E [ruby安装路径]    #比如: - E:/installed/Ruby22-x64
 
 ,然后运行: <br />
 
 	ruby dk.rb init
+	
+	ruby dk.rb preview
 
 	ruby dk.rb install
 	
@@ -43,6 +45,10 @@ description: ""
 	gem install jekyll
 
   安装完成后, 运行命令`jekyll serve --watch`. 并在浏览器中访问 http://localhost:4000 
+
+- 安装pygments代码高亮显示插件
+
+	gem install pygments.rb # 代码高亮
 
 - 找个jekyll模板, 我使用的是 [jekyll-boostrap模板](https://github.com/plusjade/jekyll-bootstrap.git "jekyll-boostrap模板"), 主题选用的是 [the-program主题](https://github.com/jekyllbootstrap/theme-the-program.git "the-program主题") 
 
