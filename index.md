@@ -5,7 +5,7 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-##Why Blog
+## Why Blog
     做过很多项目, 也接触过不少项目. 有些项目,就像流星一样,一闪而过; 有些项目,却打下深深烙印.
     我不想在进行自我总结的时候,不知道说些什么...
     俗语说: 好记性不如烂笔头. 博客中不少知识点,提到的很多书籍,我之前都经历过,阅读过.甚至两遍,三遍... 但经历一段时间, 又会忘记
@@ -13,13 +13,13 @@ tagline: Supporting tagline
     Better Done Than Never!!!
 
 
-##How Blog
+## How Blog
     目前分为这么几类:
         wiki: 知识点的积累,读书笔记等
         work: 目前工作内容总结,经验总结等
         essay: 随笔,杂七杂八
 
-##Wishes
+## Wishes
     坚持!坚持!坚持!(重要的话说三遍)
     开放,交流,交友平台
     关注者越来越多...
