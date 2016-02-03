@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "JVM内存模型(转)"
+title: "JVM内存模型(整理)"
 description: ""
 
 ---

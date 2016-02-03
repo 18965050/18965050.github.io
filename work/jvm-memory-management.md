@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "JVM内存管理(转)"
+title: "JVM内存管理(整理)"
 description: ""
 
 ---
