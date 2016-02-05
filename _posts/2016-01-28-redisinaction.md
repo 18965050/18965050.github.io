@@ -8,6 +8,8 @@ tags: [NoSQL]
 ---
 {% include JB/setup %}
 
+![Redis-In-Action](/assets/attachment/img/redis-in-action.png)
+
     Redis常常用来做分布式缓存系统. 其具有如下特点:
         (1) 访问速度快.可支持读写分离, 进一步提升写速度
         (2) 支持多达5种的数据结构,使用方便
