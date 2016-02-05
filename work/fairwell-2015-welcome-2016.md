@@ -16,6 +16,9 @@ description: ""
   If you have visited my github pages, you've noticed that there exist 2 big catagories: READING NOTES & WORKING ESSAYS.
   Next Year, my READING NOTES will inclucde but not limit to:
 
+	Spring & SpringMVC(Base)
+	Shiro(Security)
+	MyBatis(ORM)
 	Git & GitLab
 	ActiveMQ(MQ & JMS)
 	CXF(WebService) 
@@ -26,7 +29,7 @@ description: ""
 	Hadoop(Big-Data Store)
 	Nginx(Web Proxy Server)
 	Python relatives(it's a big topic, but python is really terse and powerful)
-	JavaScripte relatives(it's too hot!)
+	JavaScript relatives(it's too hot!)
 
   , and my WORKING ESSAYS will include more about the project i've done, the open sources i'm interesting in, and personal proposal about a certain problem.
 
