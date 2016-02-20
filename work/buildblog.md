@@ -36,9 +36,11 @@ description: ""
 	
 - 由于众所周知的原因, 需要为ruby gem更换来源,否则下载不了gem
 
-	gem sources --remove https://rubygems.org/ --add https://ruby.taobao.org/
+	gem sources -remove https://rubygems.org/ -add https://ruby.taobao.org/
 
 	gem sources -l
+
+- 安装Python2.7.10, ruby中有些gem是需要运行python脚本的.比如下面说到的pygments.rb
 		
 - 安装jekyll gem
 
