@@ -18,9 +18,9 @@ tags: [web-ui]
         (3) BootStrap于jQuery结合的触发事件
         ......
         
-##源码
+## 源码
 [https://github.com/18965050/JumpStartBootStrap.git](https://github.com/18965050/JumpStartBootStrap.git "JumpStartBootStrap源码")
 
     
-##读书笔记
+## 读书笔记
 [https://github.com/18965050/JumpStartBootStrap/wiki](https://github.com/18965050/JumpStartBootStrap/wiki "JumpStartBootStrap读书笔记")

@@ -21,9 +21,9 @@ tags: [network]
             (4) Netty4的线程模型
             ......
 
-##源码
+## 源码
 [https://github.com/18965050/netty-in-action.git](https://github.com/18965050/netty-in-action.git "NettyInAction源码")
 
 
-##读书笔记
+## 读书笔记
 [https://github.com/18965050/netty-in-action/wiki](https://github.com/18965050/netty-in-action/wiki "NettyInAction读书笔记")

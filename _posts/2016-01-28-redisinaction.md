@@ -23,9 +23,9 @@ tags: [NoSQL]
         (4) Redis数据压缩及性能诊断
         ......
 
-##源码
+## 源码
 [https://github.com/18965050/redis-in-action.git](https://github.com/18965050/redis-in-action.git "Redis In Action源码")
 
     
-##读书笔记
+## 读书笔记
 [https://github.com/18965050/redis-in-action/wiki](https://github.com/18965050/redis-in-action/wiki "Redis In Action读书笔记") 
