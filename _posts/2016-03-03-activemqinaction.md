@@ -22,6 +22,7 @@ tags: [MQ]
         (8) client的高级特性(exclusive consumer, message group, stream, BlobMessage, scheduler message等等)
         (9) 性能提升及调优手段
         (10) 监控和管理手段
+        ......
         
 ##源码
 [https://github.com/18965050/activemq-in-action.git](https://github.com/18965050/activemq-in-action.git "ActiveMQ In Action源码")
