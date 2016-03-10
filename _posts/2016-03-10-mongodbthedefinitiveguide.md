@@ -22,3 +22,10 @@ tags: [NoSQL]
     (7) ShardingSet分区集群及balancer, shard key的选取策略和注意
     (8) 常用的应用监管, 数据监管手段. journal原理及使用注意
     ......
+    
+##源码
+[https://github.com/18965050/MongoDB-The-Definitive-Guide.git](https://github.com/18965050/MongoDB-The-Definitive-Guide.git "MongoDB-TheDefinitiveGuide,2ndEdition源码")
+
+    
+##读书笔记
+[https://github.com/18965050/MongoDB-The-Definitive-Guide/wiki](https://github.com/18965050/MongoDB-The-Definitive-Guide/wiki "MongoDB-TheDefinitiveGuide,2ndEdition读书笔记") 
