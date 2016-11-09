@@ -15,10 +15,10 @@ tags: [network]
         Netty In Action是介绍Netty的经典书籍.
         通过此书阅读,可以了解:
             (1) ByteBuf相比于JDK NIO提供的ByteBuffer的有点所在
-            (1) Bootstrap,ServerBootstrap启动Netty流程
-            (2) Channel,ChannelPipeline,ChannelHandler(Inbound,Outbound),ChannelContext之间的关系
-            (3) 如何使用Encoder,Decoder进行序列化和反序列化
-            (4) Netty4的线程模型
+            (2) Bootstrap,ServerBootstrap启动Netty流程
+            (3) Channel,ChannelPipeline,ChannelHandler(Inbound,Outbound),ChannelContext之间的关系
+            (4) 如何使用Encoder,Decoder进行序列化和反序列化
+            (5) Netty4的线程模型
             ......
 
 ## 源码
