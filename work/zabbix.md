@@ -13,5 +13,5 @@ description: ""
 
     我在阅读的过程中, 也亲自实践, 并整理出了一些相关文档.放在了github wiki空间中
 
-[wiki]
+## [wiki]
 [https://github.com/18965050/zabbix/wiki](https://github.com/18965050/zabbix/wiki "Zabbix相关文档")
