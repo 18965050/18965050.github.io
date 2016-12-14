@@ -72,28 +72,28 @@ jstat全称"Java Virtual Machine statistics monitoring tool",其可谓是JVM内�
 - compiler (JIT): 显示VM实时编译的数量等信息
 ![jstat-compiler输出](../assets/attachment/img/work/base-operating-tool/jstat-compiler.png)
 
-- gc(GC堆状态): 可以显示gc的信息，查看gc的次数，及时间
+- gc(GC堆状态): 可以显示gc的信息，查看gc的次数，及时间(**注意: 单位是KB而不是byte**)
 ![jstat-gc输出](../assets/attachment/img/work/base-operating-tool/jstat-gc.png)
 
-- gccapacity(各区大小): 显示VM内存中三代（young,old,perm）对象的使用和占用大小 
+- gccapacity(各区大小): 显示VM内存中三代（young,old,perm）对象的使用和占用大小 (**注意: 单位是KB而不是byte**)
 ![jstat-gccapacity输出](../assets/attachment/img/work/base-operating-tool/jstat-gccapacity.png)
 
 - gcutil(GC统计汇总): 统计gc信息
 ![jstat-gcutil输出](../assets/attachment/img/work/base-operating-tool/jstat-gcutil.png)
 
-- gcnew(新区统计): 年轻代对象的信息
+- gcnew(新区统计): 年轻代对象的信息 (**注意: 单位是KB而不是byte**)
 ![jstat-gcnew输出](../assets/attachment/img/work/base-operating-tool/jstat-gcnew.png)
 
-- gcnewcapacity(新区大小): 年轻代对象的信息及其占用量
+- gcnewcapacity(新区大小): 年轻代对象的信息及其占用量 (**注意: 单位是KB而不是byte**)
 ![jstat-gcnewcapacity输出](../assets/attachment/img/work/base-operating-tool/jstat-gcnewcapacity.png)
 
-- gcold(老区统计): old代对象的信息
+- gcold(老区统计): old代对象的信息 (**注意: 单位是KB而不是byte**)
 ![jstat-gcold输出](../assets/attachment/img/work/base-operating-tool/jstat-gcold.png)
 
-- gcoldcapacity(老区大小): old代对象的信息及其占用量
+- gcoldcapacity(老区大小): old代对象的信息及其占用量 (**注意: 单位是KB而不是byte**)
 ![jstat-gcoldcapacity输出](../assets/attachment/img/work/base-operating-tool/jstat-gcoldcapacity.png)
 
-- gcpermcapacity(永久区大小): perm对象的信息及其占用量
+- gcpermcapacity(永久区大小): perm对象的信息及其占用量 (**注意: 单位是KB而不是byte**)
 ![jstat-gcpermcapacity输出](../assets/attachment/img/work/base-operating-tool/jstat-gcpermcapacity.png)
 
 - printcompilation(HotSpot编译统计): 当前VM执行的信息
