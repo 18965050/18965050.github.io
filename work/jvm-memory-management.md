@@ -25,7 +25,8 @@ JVM的早期版本并没有进行分区管理；这样的后果是JVM进行垃�
 
 	> 养老区（Tenure (Old) generation space）：用于保存从新生区筛选出来的JAVA对象。
 
-![堆结构](../assets/attachment/img/work/jvm-memory/heap_structure.png) 
+![堆结构](../assets/attachment/img/work/jvm-memory/heap_structure.png)
+
 ## 垃圾回收机制
 首先当启动J2EE应用服务器时，JVM随之启动，并将JDK的类和接口，应用服务器运行时需要的类和接口以及J2EE应用的类和接口定义文件也及编译后的Class文件或JAR包中的Class文件装载到JVM的永久存储区。在伊甸园中创建JVM，应用服务器运行时必须的JAVA对象，创建J2EE应用启动时必须创建的JAVA对象；J2EE应用启动完毕，可对外提供服务。
 
@@ -62,7 +63,7 @@ JVM在伊甸园区根据用户的每次请求创建相应的JAVA对象，当伊�
 
 Serial收集器是串行收集器.
 ![串行垃圾回收器](../assets/attachment/img/work/jvm-memory/serial_garbage_collector.png) 
-Serial 收集器是历史最悠久的一个回收器，JDK1.3之前广泛使用这个收集器，目前也是ClientVM下和ServerVM 4核4GB以下机器的默认垃圾回收器。串行收集器并不是只能使用一个CPU进行收集，而是当JVM需要进行垃圾回收的时候，需要中断所有的用户线程，知道它回收结束为止，因此又号称“Stop The World”(*STW*) 的垃圾回收器。注意，JVM中文名称为java虚拟机，因此它就像一台虚拟的电脑一样在工作，而其中的每一个线程就被认为是JVM的一个处理器，因此大家看到图中的CPU0、CPU1实际为用户的线程，而不是真正机器的CPU，大家不要误解哦。
+Serial 收集器是历史最悠久的一个回收器，JDK1.3之前广泛使用这个收集器，目前也是ClientVM下和ServerVM 4核4GB以下机器的默认垃圾回收器。串行收集器并不是只能使用一个CPU进行收集，而是当JVM需要进行垃圾回收的时候，需要中断所有的用户线程，直到它回收结束为止，因此又号称“Stop The World”(*STW*) 的垃圾回收器。注意，JVM中文名称为java虚拟机，因此它就像一台虚拟的电脑一样在工作，而其中的每一个线程就被认为是JVM的一个处理器，因此大家看到图中的CPU0、CPU1实际为用户的线程，而不是真正机器的CPU，大家不要误解哦。
 
 串行回收方式适合低端机器，是Client模式下的默认收集器，对CPU和内存的消耗不高，适合用户交互比较少，后台任务较多的系统。Serial收集器默认新旧生代的回收器搭配为Serial+ SerialOld
 
@@ -119,7 +120,7 @@ SerialOld是旧生代Client模式下的默认收集器，单线程执行；在JD
 
 - **CMS收集器(Concurrent Mark Sweep Collector)**
 
-CMS又称响应时间优先(最短回收停顿)的回收器，使用并发模式回收垃圾，使用标记-清除算法，CMS对CPU是非常敏感的，它的回收线程数=（CPU+3）/4，因此当CPU是2核的实惠，回收线程将占用的CPU资源的50%，而当CPU核心数为4时仅占用25%。
+CMS又称响应时间优先(最短回收停顿)的回收器，使用并发模式回收垃圾，使用标记-清除算法，CMS对CPU是非常敏感的，它的回收线程数=（CPU+3）/4，因此当CPU是2核的时候，回收线程将占用的CPU资源的50%，而当CPU核心数为4时仅占用25%。
 
 CMS垃圾收集分为4个阶段: <br />
 
