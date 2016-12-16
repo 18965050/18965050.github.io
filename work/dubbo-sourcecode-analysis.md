@@ -16,3 +16,13 @@ description: ""
     Dubbo框架内容庞大, 几天的时间只能梳理个主流程, 不能照顾到细枝末节, 有分析不对或含糊的地方还请多多指正.
 
 [Dubbo源码分析文档](https://github.com/18965050/dubbo/wiki/Dubbo%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90 "Dubbo源码分析")
+
+网上有几篇关于Dubbo源码分析不错的文章, 摘录如下:
+
+[dubbo源码分析系列（1）扩展机制的实现](https://my.oschina.net/pingpangkuangmo/blog/508963 "Dubbo扩展机制")
+
+[dubbo源码分析系列（2）服务的发布](https://my.oschina.net/pingpangkuangmo/blog/511766 "Dubbo服务发布")
+
+[dubbo源码分析系列（3）服务的引用](https://my.oschina.net/pingpangkuangmo/blog/515673 "Dubbo服务引用")
+
+[dubbo源码分析系列（4）dubbo通信设计](https://my.oschina.net/pingpangkuangmo/blog/521945 "Dubbo通信设计")
