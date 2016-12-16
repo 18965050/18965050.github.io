@@ -60,5 +60,5 @@ MyBatis Generator就像iBatis的iBator组件,用于自动生成POJO, DAO, SQL配
 其相应的文档在: [MyBatis Generator](http://mbg.cndocs.tk "MyBatis Generator")
 
 ## 推荐
-网上有个"深入浅出MyBatis"系列文章, 值得学习一下.
+网上有个"深入浅出MyBatis"系列文章, 值得学习一下. 我已经放入repo中的 assets/attachment/img/work/mybatis-user-guide/ 目录下
 
