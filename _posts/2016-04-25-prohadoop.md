@@ -33,3 +33,9 @@ tags: [batch process]
 ## 读书笔记
 [https://github.com/18965050/prohadoop/wiki](https://github.com/18965050/prohadoop/wiki "ProHadoop读书笔记")
          
+## 参考资料
+[Hadoop 新 MapReduce 框架 Yarn 详解](https://www.ibm.com/developerworks/cn/opensource/os-cn-hadoop-yarn/ "Hadoop 新 MapReduce 框架 Yarn 详解")
+
+[Hadoop HA on Yarn——集群配置](http://www.cnblogs.com/captainlucky/p/4654923.html "Hadoop HA on Yarn——集群配置")
+
+[MapReduce:详解Shuffle过程](http://langyu.iteye.com/blog/992916 "MapReduce:详解Shuffle过程")
