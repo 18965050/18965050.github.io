@@ -33,3 +33,5 @@ tags: [EIP]
 ## 读书笔记
 [https://github.com/18965050/camelinaction/wiki](https://github.com/18965050/camelinaction/wiki "Camel In Action 读书笔记")     
      
+## 备注
+对于Camel的介绍, 除了本书外, 最全面的就是官网的文档了. 如有兴趣, 建议好好研究下[Camel架构](http://camel.apache.org/architecture.html "Camel架构")
