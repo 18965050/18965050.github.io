@@ -76,3 +76,6 @@ tags: [python]
 
 ## 读书笔记
 [https://github.com/18965050/TheQuickPythonBook/wiki](https://github.com/18965050/TheQuickPythonBook/wiki "TheQuickPythonBook读书笔记")
+
+## 备注
+[python2和3的主要区别](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html "python2和3的主要区别")
