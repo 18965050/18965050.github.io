@@ -29,9 +29,15 @@ tags: [stream handler]
 
 ## 参考资料
  网上有一些storm的学习资料很值得学习下, 尤其是介绍storm 消息可靠性的保证
+
  [Storm入门教程：前言](http://os.51cto.com/art/201308/408733.htm "Storm入门教程：前言")
+
  [Storm入门教程：构建Topology](http://os.51cto.com/art/201308/408739.htm "Storm入门教程：构建Topology")
+
  [Storm入门教程：安装部署步骤详解](http://os.51cto.com/art/201309/411003.htm "Storm入门教程：安装部署步骤详解")
+
  [Storm入门教程：消息的可靠处理](http://os.51cto.com/art/201312/422572.htm "Storm入门教程：消息的可靠处理")
+
  [Storm入门教程：一致性事务](http://os.51cto.com/art/201312/422577.htm "Storm入门教程：一致性事务")
+
  [Storm应用系列](http://blog.csdn.net/xeseo/article/category/1831495 "Storm应用系列")
