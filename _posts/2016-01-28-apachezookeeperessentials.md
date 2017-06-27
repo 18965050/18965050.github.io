@@ -43,5 +43,7 @@ tags: [ distribute coordinate]
 
 [https://github.com/alibaba/taokeeper](https://github.com/alibaba/taokeeper "TAOKeeper(zookeeper的监控报表系统)")
 
+[https://github.com/smallnest/ZKRecipesByExample](https://github.com/smallnest/ZKRecipesByExample "curator example")
+
 
 
