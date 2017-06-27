@@ -29,7 +29,7 @@ tags: [network]
 [https://github.com/18965050/netty-in-action/wiki](https://github.com/18965050/netty-in-action/wiki "NettyInAction读书笔记")
 
 ## 备注
-需要注意的是Netty3和Netty4的线程模型不一致. Netty3中, InBound事件均在IO线程中处理, 而OutBound事件在IO线程中执行,
+需要注意的是Netty3和Netty4的线程模型不一致. Netty3中, InBound事件均在IO线程中处理, 而OutBound事件在业务线程中执行,
 而Netty4中统一了线程模型, InBound和OutBound线程均在EventLoop线程(IO线程)中执行. Netty3的线程模型
 比较高效,因为可以使用线程池并行执行, 但由于InBound和OutBound模型不一致, 容易导致线程安全性问题或内存泄露
 问题的发生. 而Netty4虽然是串行执行EventLoop线程的, 但ChannelPipeline在加载ChannelHandler的时候可指定业务EventExecutorGroup,
