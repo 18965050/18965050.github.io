@@ -29,6 +29,7 @@ tags: [ distribute coordinate]
     (3) ZK扩容/缩容时, 需要手动修改配置.
     (4) 强一致性对于ZK集群的可用性会有较大的性能影响
     (5) 通知机制只要注册, 一定会接收相应的事件并处理, 没有过滤机制
+    (6) master假死以及脑裂问题(http://www.cnblogs.com/rainy-shurun/p/5414110.html)
 
     因此对于大规模的ZK使用, 一般都比较谨慎, 比如Dubbo在阿里内部使用时并没有用ZK做注册中心, 而是使用了数据库
 

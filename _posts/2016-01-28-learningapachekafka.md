@@ -25,5 +25,8 @@ tags: [MQ]
 
     
 ## 读书笔记
-[https://github.com/18965050/learning-kafka/wiki](https://github.com/18965050/learning-kafka/wiki "LearningApachekafka读书笔记")        
+[https://github.com/18965050/learning-kafka/wiki](https://github.com/18965050/learning-kafka/wiki "LearningApachekafka读书笔记")
+
+## 参考资料
+[http://matt33.com/tags/kafka/](http://matt33.com/tags/kafka/ "Kafka系列文章")
     
