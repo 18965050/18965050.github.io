@@ -29,3 +29,6 @@ tags: [VM Container]
 
 ## 读书笔记
 [https://github.com/18965050/dockerinaction/wiki](https://github.com/18965050/dockerinaction/wiki "DockerInAction读书笔记")
+
+## 参考资料
+网上最近有个系列介绍docker的文章: `每天5分钟玩转 Docker 容器技术`, 值得去学习下
