@@ -7,7 +7,8 @@ description: ""
 
 我们之前有自己开发的基于dubbo实现的配置中心, 但对比了携程apollo配置中心后, 还是果断的决定用其替换我们自己的.
  
-## 比较    
+## 比较 
+   
 | 比较项 | metis配置管理 | ctrip-apollo | 说明 |
 | --- | --- | --- | --- |
 | 统一配置管理 | 无 | 有 | 我们的配置管理不支持多对个环境统一进行配置, 而apollo支持 |
@@ -15,6 +16,7 @@ description: ""
 | 可用性 | 弱 | 强 | metis如果挂了, 配置中心不能使用; 而ctrip-apollo支持离线方式使用 |
 | 独立性 | 弱 | 强 | 是基础服务中的一个模块,如果metis挂了,配置服务不能使用; ctrip-apollo则是独立的平台 |
 | 功能性 | 弱 | 强 | 1. 我们的配置管理配置维度低(仅支持group维度);ctrip-apollo支持多个维度 <br /> 2.我们的配置管理没有回滚,发布,灰度发布等功能,ctrip-apollo有 <br /> 3.我们的配置管理没有修改和发布历史, ctrip-apollo有 <br /> 4. 我们的配置管理没有权限控制,ctrip-apollo有 <br /> 5.我们的配置管理没有配置管理,ctrip-apollo有|
+
 
 ## 官方文档
 [Apollo配置中心介绍](https://github.com/ctripcorp/apollo/wiki/Apollo%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83%E4%BB%8B%E7%BB%8D "Apollo配置中心介绍")
