@@ -104,7 +104,7 @@ description: ""
   
 3. 通过如下命令启动rundeck:
   ```bash
-  java -Drundeck.jaaslogin=true -Dloginmodule.conf.name=jaas-multi.conf -Dloginmodule.name=multiLoginModule -jar rundeck-3.0.1-20180803.war
+  nohup java -Drundeck.jaaslogin=true -Dloginmodule.conf.name=jaas-multi.conf -Dloginmodule.name=multiLoginModule -jar rundeck-3.0.1-20180803.war 2>&1 &
   ```
 
   说明如下:
