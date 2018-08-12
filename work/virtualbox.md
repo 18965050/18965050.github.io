@@ -6,7 +6,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-这是在进行virtualbox安装CentOS7虚机,并保证虚机和主机网络互通的一篇总结.
+这是在进行virtualbox5.2.12版本安装CentOS7虚机,并保证虚机和主机网络互通的一篇总结.
 
 1. virtualbox全局网络设置需要设置两张网卡,NAT(可使虚机使用主机网络)和Host-Only(配置虚机静态IP).设置分别如下
     
@@ -30,7 +30,7 @@ description: ""
     
 4. 启动虚机并root登陆,在`/etc/sysconfig/network-scripts/` 目录下可看到两块网卡配置`ifcfg-enp0s3(NAT)`和`ifcfg-enp0s8(Host-Only)`, 分别配置如下:
 
-    a. ifcfg-enp0s3(NAT配置, 用于绑定主机网络,DHCP)
+a. ifcfg-enp0s3(NAT配置, 用于绑定主机网络,DHCP)
     
 ```properties
 TYPE=Ethernet
@@ -54,7 +54,7 @@ DEVICE=enp0s3
 ONBOOT=yes    
 ```
     
-    b. ifcfg-enp0s8(Host-Only配置, 用于主机访问虚机,static ip)
+b. ifcfg-enp0s8(Host-Only配置, 用于主机访问虚机,static ip)
     
 ```properties
 TYPE=Ethernet
