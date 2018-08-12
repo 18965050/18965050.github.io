@@ -12,11 +12,11 @@ description: ""
     
     a. virtualbox "管理"-->"全局设定"-->"网络"中配置NAT网卡
     
-        ![setting-global-nat](../assets/attachment/img/work/virtualbox/setting-global-nat.png)
+     ![setting-global-nat](../assets/attachment/img/work/virtualbox/setting-global-nat.png)
      
     b. virtualbox右侧 "全局工具"-->"主机网络管理器"设置Host-Only网卡
     
-        ![setting-global-hostonly](../assets/attachment/img/work/virtualbox/setting-global-hostonly.png)
+     ![setting-global-hostonly](../assets/attachment/img/work/virtualbox/setting-global-hostonly.png)
           
 2. Host-Only设置完成后,可在主机网络连接中看到此网卡
 
@@ -32,51 +32,51 @@ description: ""
 
     a. ifcfg-enp0s3(NAT配置, 用于绑定主机网络,DHCP)
     
-    ```properties
-    TYPE=Ethernet
-    BOOTPROTO=dhcp     #动态IP
-    HWADDR=08:00:27:E5:8F:FE   #和虚机NAT网络mac保持一致
-    NETMASK=255.255.255.0
-    GATEWAY=10.0.2.0
-    DEFROUTE=yes           # 注意,作为默认路由
-    PEERDNS=yes
-    PEERROUTES=yes
-    IPV4_FAILURE_FATAL=no
-    IPV6INIT=yes
-    IPV6_AUTOCONF=yes
-    IPV6_DEFROUTE=yes      # 注意,作为默认路由
-    IPV6_PEERDNS=yes
-    IPV6_PEERROUTES=yes
-    IPV6_FAILURE_FATAL=no
-    NAME=enp0s3            #名称
-    UUID=1e95182d-aba4-4ce7-b3c7-d9b77b2464f3
-    DEVICE=enp0s3
-    ONBOOT=yes    
-    ```
+```properties
+TYPE=Ethernet
+BOOTPROTO=dhcp     #动态IP
+HWADDR=08:00:27:E5:8F:FE   #和虚机NAT网络mac保持一致
+NETMASK=255.255.255.0
+GATEWAY=10.0.2.0
+DEFROUTE=yes           # 注意,作为默认路由
+PEERDNS=yes
+PEERROUTES=yes
+IPV4_FAILURE_FATAL=no
+IPV6INIT=yes
+IPV6_AUTOCONF=yes
+IPV6_DEFROUTE=yes      # 注意,作为默认路由
+IPV6_PEERDNS=yes
+IPV6_PEERROUTES=yes
+IPV6_FAILURE_FATAL=no
+NAME=enp0s3            #名称
+UUID=1e95182d-aba4-4ce7-b3c7-d9b77b2464f3
+DEVICE=enp0s3
+ONBOOT=yes    
+```
     
     b. ifcfg-enp0s8(Host-Only配置, 用于主机访问虚机,static ip)
     
-    ```properties
-    TYPE=Ethernet
-    HWADDR=08:00:27:41:60:1B      #和虚机Host-Only网络mac保持一致
-    BOOTPROTO=static               #静态IP
-    IPADDR=192.168.56.101
-    NETMASK=255.255.255.0
-    GATEWAY=192.168.56.1
-    DEFROUTE=no                    #注意:关闭默认路由
-    PEERDNS=yes
-    PEERROUTES=yes
-    IPV4_FAILURE_FATAL=no
-    IPV6INIT=yes
-    IPV6_AUTOCONF=yes
-    IPV6_DEFROUTE=no               #注意:关闭默认路由
-    IPV6_PEERDNS=yes
-    IPV6_PEERROUTES=yes
-    IPV6_FAILURE_FATAL=no
-    NAME=enp0s8                    #名称
-    UUID=1e95182d-aba4-4ce8-b3c7-d9b77b2464f3      #唯一,和enp0s3不同
-    DEVICE=enp0s8
-    ONBOOT=yes
-    ```
+```properties
+TYPE=Ethernet
+HWADDR=08:00:27:41:60:1B      #和虚机Host-Only网络mac保持一致
+BOOTPROTO=static               #静态IP
+IPADDR=192.168.56.101
+NETMASK=255.255.255.0
+GATEWAY=192.168.56.1
+DEFROUTE=no                    #注意:关闭默认路由
+PEERDNS=yes
+PEERROUTES=yes
+IPV4_FAILURE_FATAL=no
+IPV6INIT=yes
+IPV6_AUTOCONF=yes
+IPV6_DEFROUTE=no               #注意:关闭默认路由
+IPV6_PEERDNS=yes
+IPV6_PEERROUTES=yes
+IPV6_FAILURE_FATAL=no
+NAME=enp0s8                    #名称
+UUID=1e95182d-aba4-4ce8-b3c7-d9b77b2464f3      #唯一,和enp0s3不同
+DEVICE=enp0s8
+ONBOOT=yes
+```
     
 5 配置完成重启网络, 即可实现虚机和主机网络互通, 且虚机也能访问外网.
