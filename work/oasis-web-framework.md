@@ -14,6 +14,12 @@ description: ""
     (5) 令牌拦截机制, 可一定程度预防CSRF攻击, 及防止表单重复提交
     (6) 滥用检查机制, 包括IP及Session的滥用检查, 黑白名单等.
     (7) Apache Commons和Google Guava工具类介绍说明
+    
+    新功能添加(2019-3-19):
+    (1) redisson sentinel引入
+    (2) prometheus metrics相关引入,包括web,dubbo, JVM,Druid等
+    
+    新的代码放在 attachment/ 目录下, 解压即可 
 
 
     OASIS的详细介绍可通过启动oasis-web-showcase项目(运行cn.xyz.chaos.examples.showcase.demo.ShowcaseServer)
