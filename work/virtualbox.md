@@ -6,6 +6,9 @@ description: ""
 ---
 {% include JB/setup %}
 
+**<font color="red">2019-03-22日补充: 以下内容作废. 具体配置请参考:</font>**
+[Virtual Box配置CentOS7网络](https://www.cnblogs.com/wxw16/p/6256796.html "Virtual Box配置CentOS7网络")
+
 这是在进行virtualbox5.2.12版本安装CentOS7虚机,并保证虚机和主机网络互通的一篇总结.
 
 1. virtualbox全局网络设置需要设置两张网卡,NAT(可使虚机使用主机网络)和Host-Only(配置虚机静态IP).设置分别如下
